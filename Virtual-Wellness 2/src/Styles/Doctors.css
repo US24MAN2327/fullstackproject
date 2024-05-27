@@ -1,0 +1,92 @@
+.doctor-section {
+    padding: 50px;
+    text-align: center;
+    background-color: #1b2433;
+}
+
+.dt-title {
+    font-size: 32px;
+    font-weight: bold;
+    color: #2fbc1d;
+    position: relative;
+}
+
+.dt-title::before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 4px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    bottom: -12px;
+    left: 0;
+}
+
+.dt-description {
+    margin-top: 35px;
+    font-size: 18px;
+    line-height: 1.6;
+    color: #ffffff;
+}
+
+.dt-cards-content {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 30px;
+    justify-items: center;
+}
+
+.dt-card {
+    margin-top: 50px;
+    width: 95%;
+    height: 90%;
+    text-align: left;
+    font-family: 'Rubik', sans-serif;
+    background-color: #91c183;
+    border-radius: 20px;
+    box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.dt-card:hover {
+    transform: translateY(-5px);
+}
+
+.dt-card-img {
+    width: 80%;
+    height: 60%;
+    object-fit: cover;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.dt-card-info {
+    padding: 20px;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.dt-card-name {
+    margin: 10px 0 5px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #000000;
+}
+
+.dt-card-title {
+    margin-bottom: 15px;
+    font-size: 16px;
+    color: #000000;
+}
+
+.dt-card-stars {
+    font-size: 18px;
+    color: #FFD700;
+}
+
+.dt-card-reviews {
+    font-size: 16px;
+    color: #000000;
+}

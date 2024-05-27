@@ -1,0 +1,61 @@
+/* About Section */
+.about-section {
+    padding: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    background-color: #121212; /* Darker background color */
+}
+
+/* About Image Content */
+.about-image-content {
+    flex: 1;
+}
+
+.about-image1 {
+    width: 100%;
+    height: auto;
+}
+
+/* About Text Content */
+.about-text-content {
+    flex: 1;
+}
+
+/* About Title */
+.about-title {
+    font-size: 32px;
+    font-weight: bold;
+    color: #54de54; /* Green title color */
+}
+
+/* About Description */
+.about-description {
+    margin-top: 20px;
+    font-size: 18px;
+    line-height: 1.6;
+    color: #D0D3DA; /* Light gray description color */
+}
+
+/* About Text Title */
+.about-text-title {
+    margin-top: 30px;
+    font-size: 24px;
+    font-weight: bold;
+    color: #54de54; /* Green text title color */
+}
+
+/* About Text Subtitle */
+.about-text-sTitle {
+    font-size: 20px;
+    font-weight: bold;
+    color: #54de54; /* Green text subtitle color */
+}
+
+/* About Text Description */
+.about-text-description {
+    margin-top: 10px;
+    font-size: 16px;
+    color: #D0D3DA; /* Light gray text description color */
+}

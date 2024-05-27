@@ -1,0 +1,80 @@
+/* .ba-section */
+.ba-section {
+    padding: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    background-color: #1B2433; /* Darker background color */
+}
+
+/* .ba-image-content */
+.ba-image-content {
+    flex: 1;
+    text-align: center;
+}
+
+/* .ba-image1 */
+.ba-image1 {
+    width: 70%;
+    height: auto;
+}
+
+/* .ba-text-content */
+.ba-text-content {
+    flex: 1;
+}
+
+/* .ba-title */
+.ba-title {
+    font-size: 32px;
+    font-weight: bold;
+    color: #54de54; /* Green title color */
+    position: relative;
+}
+
+/* .ba-title::before */
+.ba-title::before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 4px;
+    background-color: #54de54; /* Green title underline color */
+    border-radius: 8px;
+    bottom: -12px;
+    left: 0;
+}
+
+/* .ba-description */
+.ba-description {
+    margin-top: 20px;
+    font-size: 18px;
+    line-height: 1.6;
+    color: #D0D3DA; /* Light gray description color */
+}
+
+/* .ba-checks */
+.ba-checks {
+    margin: 20px 0;
+    font-size: 18px;
+    font-weight: bold;
+    color: #D0D3DA; /* Light gray checks color */
+}
+
+/* .ba-appointment-btn */
+.ba-appointment-btn {
+    margin-top: 30px;
+    padding: 15px 40px;
+    color: #fff;
+    background-color: #54de54; /* Green button background color */
+    border: none;
+    border-radius: 50px;
+    font-size: 18px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+/* .ba-appointment-btn:hover */
+.ba-appointment-btn:hover {
+    background-color: #3c9740; /* Darker green on hover */
+}

@@ -1,0 +1,87 @@
+/* AppointmentForm.css */
+
+/* Form Container */
+.form-container {
+    padding: 32px;
+    background-color: #1B2433; /* Darker background color */
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Form Title */
+.form-title {
+    font-size: 32px;
+    font-weight: bold;
+    color: #54de54; /* Green title color */
+    margin-bottom: 20px;
+}
+
+/* Form Title Underline */
+.form-title::after {
+    content: "";
+    display: block;
+    width: 50px;
+    height: 4px;
+    background-color: #54de54; /* Green title underline color */
+    border-radius: 2px;
+    margin-top: 8px;
+}
+
+/* Form Content Label */
+.form-content label {
+    font-size: 18px;
+    margin-bottom: 8px;
+    color: #D0D3DA; /* Light gray label color */
+}
+
+/* Form Content Input and Select */
+.form-content input,
+.form-content select {
+    width: 100%;
+    height: 40px;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    color: #D0D3DA; /* Light gray input text color */
+    background-color: #293241; /* Darker input background color */
+}
+
+/* Adjust input height for datetime-local */
+.form-content input[type="datetime-local"] {
+    height: 44px;
+}
+
+/* Error Message */
+.error-message {
+    color: #ff5252; /* Red error message color */
+    font-size: 14px;
+    margin-top: 4px;
+}
+
+/* Success Message */
+.success-message {
+    color: #4caf50; /* Green success message color */
+    font-size: 18px;
+    margin-top: 16px;
+}
+
+/* Responsive */
+@media screen and (max-width: 600px) {
+    .form-container {
+        padding: 24px;
+    }
+
+    .form-title {
+        font-size: 28px;
+    }
+
+    .form-content label {
+        font-size: 16px;
+    }
+
+    .form-content input,
+    .form-content select {
+        font-size: 14px;
+    }
+}
