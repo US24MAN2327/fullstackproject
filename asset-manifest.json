@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/Virtual-Wellness/static/css/main.2231b36e.css",
+    "main.js": "/Virtual-Wellness/static/js/main.59f8ba58.js",
+    "static/media/doctor-picture.png": "/Virtual-Wellness/static/media/doctor-picture.98a06c5dec5340e03b47.png",
+    "static/media/doctor-group.png": "/Virtual-Wellness/static/media/doctor-group.35b64ec083bf81d0a553.png",
+    "static/media/profile-2.png": "/Virtual-Wellness/static/media/profile-2.22ee7c4abe19bbe33073.png",
+    "static/media/profile-3.png": "/Virtual-Wellness/static/media/profile-3.128ea84d906672dbbcf8.png",
+    "static/media/profile-4.png": "/Virtual-Wellness/static/media/profile-4.8961f74a6a9991acc917.png",
+    "static/media/profile-1.png": "/Virtual-Wellness/static/media/profile-1.0d88c4910befe558d3e9.png",
+    "index.html": "/Virtual-Wellness/index.html",
+    "main.2231b36e.css.map": "/Virtual-Wellness/static/css/main.2231b36e.css.map",
+    "main.59f8ba58.js.map": "/Virtual-Wellness/static/js/main.59f8ba58.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2231b36e.css",
+    "static/js/main.59f8ba58.js"
+  ]
+}
